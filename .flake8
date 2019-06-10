@@ -1,0 +1,4 @@
+[flake8]
+
+exclude = .venv, .idea
+max-line-length = 150
