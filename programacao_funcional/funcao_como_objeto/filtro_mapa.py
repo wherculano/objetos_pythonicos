@@ -24,4 +24,4 @@ print(list(map(extrair_nome, filter(idade_maior_que_10, alunos))))
 # Modulo Operator para fazer a mesma coisa
 import operator
 print(list(map(operator.itemgetter(0), filter(idade_maior_que_10, alunos))))
-
+# operator.itemgetter pega o elemento de um iteravel pelo seu indice. Neste caso acima, pegará o primeiro elemento (0)
