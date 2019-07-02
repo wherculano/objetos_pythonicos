@@ -22,5 +22,15 @@ class IteradorTrem:
 
 
 if __name__ == '__main__':
-    for vagao in Trem(4):
+    trem = Trem(4)
+    for vagao in trem:
         print(vagao)
+    print('-'*20)
+    iterador = iter(trem)
+    print('Iniciando o iterador')
+    print(next(iterador))
+    print(next(iterador))
+    print(next(iterador))
+    print(next(iterador))
+    # chama a exceção
+    # print(next(iterador))
